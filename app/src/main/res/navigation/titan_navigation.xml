@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sport_navigation"
+    app:startDestination="@id/titanListFragmnet">
+
+    <fragment
+        android:id="@+id/titanListFragmnet"
+        android:name="com.oropeza.ec04_asot.view.fragments.TitanListFragmnet"
+        android:label="fragment_titan_list"
+        tools:layout="@layout/fragment_titan_list" >
+        <action
+            android:id="@+id/action_titanListFragmnet_to_titanDetailFragment"
+            app:destination="@id/titanDetailFragment"
+            app:popUpTo="@id/titanDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/titanFavoriteFragment"
+        android:name="com.oropeza.ec04_asot.view.fragments.TitanFavoriteFragment"
+        android:label="fragment_titan_favorite"
+        tools:layout="@layout/fragment_titan_favorite" >
+        <action
+            android:id="@+id/action_titanFavoriteFragment_to_demonDetailFragment"
+            app:destination="@id/titanDetailFragment"
+            app:popUpTo="@id/titanFavoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.oropeza.ec04_asot.view.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/titanDetailFragment"
+        android:name="com.oropeza.ec04_asot.view.fragments.TitanDetailFragment"
+        android:label="fragment_titan_detail"
+        tools:layout="@layout/fragment_titan_detail" >
+        <argument
+            android:name="titan"
+            app:argType="com.oropeza.ec04_asot.model.AttackOnTitan" />
+    </fragment>
+    <fragment
+        android:id="@+id/titanBDListFragment"
+        android:name="com.oropeza.ec04_asot.view.fragments.TitanBDListFragment"
+        android:label="fragment_titan_b_d_list"
+        tools:layout="@layout/fragment_titan_b_d_list" />
+</navigation>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1006265112472",
+    "project_id": "demonslayer-920d5",
+    "storage_bucket": "demonslayer-920d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006265112472:android:041bd358fe169643aafded",
+        "android_client_info": {
+          "package_name": "com.oropeza.ec04_asot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006265112472-98qnl46s7scfn6grosj480ef0a2mua0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oropeza.ec04_asot",
+            "certificate_hash": "17a11d7ad1196d5a0940c01876b936905a06d37c"
+          }
+        },
+        {
+          "client_id": "1006265112472-tll6e8hf99a7s0fjonr5v81chg527k7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDXx28bUTLRBlN_xjNTrR5D95b95Je6w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006265112472-fef5tndrjne0eielnjp940dm25eunbrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

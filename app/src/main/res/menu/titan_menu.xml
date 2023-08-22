@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/titanListFragmnet"
+        android:enabled="true"
+        android:icon="@drawable/ic_katana"
+        android:title="API" />
+
+    <item
+        android:id="@+id/titanFavoriteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@+id/titanBDListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_db"
+        android:title="DB" />
+
+    <item
+        android:id="@id/infoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_info"
+        android:title="Info" />
+</menu>
